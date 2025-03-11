@@ -28,16 +28,25 @@ const Footer: React.FC = () => {
           <a
             href="https://www.linkedin.com/in/fadhillah-zainum-muttaqin"
             className="hover:text-gray-500"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={linkedinIcon} alt="LinkedIn" className="w-10 h-10" />
           </a>
           <a
             href="https://www.instagram.com/fzainum.m?igsh=eDY3a24wZ2thbWtv"
             className="hover:text-gray-500"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={instagramIcon} alt="Instagram" className="w-10 h-10" />
           </a>
-          <a href="https://github.com/zetwenty" className="hover:text-gray-500">
+          <a
+            href="https://github.com/zetwenty"
+            className="hover:text-gray-500"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={githubIcon} alt="Github" className="w-10 h-10" />
           </a>
         </div>

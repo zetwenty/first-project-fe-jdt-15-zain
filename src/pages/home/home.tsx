@@ -26,11 +26,11 @@ const Home: React.FC = () => {
       </section>
 
       <section className="flex flex-col">
-        <h1 className="font-semibold text-5xl uppercase text-center">
+        <h1 className="font-semibold text-xl md:text-5xl uppercase text-center">
           My Projects
         </h1>
 
-        <div className="grid grid-cols-3 gap-3 py-5 px-5">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-5 p-6 md:p-16">
           <div className="flex-1">
             <Card
               imgSrc={trav}

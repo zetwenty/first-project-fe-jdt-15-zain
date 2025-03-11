@@ -16,8 +16,8 @@ const Card: React.FC<CardProps> = ({ imgSrc, title, description }) => {
       />
 
       <div className="py-3 px-6 space-y-2">
-        <h1 className="font-semibold text-xl">{title}</h1>
-        <p className="text-sm text-justify">{description}</p>
+        <h1 className="font-semibold text-base md:text-xl">{title}</h1>
+        <p className="text-sx md:text-sm">{description}</p>
       </div>
     </div>
   );
